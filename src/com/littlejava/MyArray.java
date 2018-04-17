@@ -3,11 +3,9 @@ package com.littlejava;
 public class MyArray {
     private int[] ary = new int[20];
     private int length = 0;
-    private int index = 0;
 
     public void add(int x) {
-        ary[index++] = x;
-        length++;
+        ary[length++] = x;
     }
 
     public void sort() {
